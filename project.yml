@@ -3,3 +3,6 @@ packages:
     actions:
       - name: tinybert
         runtime: 'python:default'
+        limits:
+              timeout: 12000
+              memory: 1024
